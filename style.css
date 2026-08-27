@@ -45,38 +45,43 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height:500px;
+    height: 500px;
     margin-bottom: 30%;
 }
-.foto{
 
-   margin-bottom: 0;
-   position: absolute;
+.foto {
+
+    margin-bottom: 0;
+    position: absolute;
     margin: 16px auto;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 700px;
     width: auto;
-    
+
 }
-.imagem{
+
+.imagem {
     position: absolute;
-    margin:16px;
+    margin: 16px;
     display: flex;
     justify-content: center;
     margin-top: -470px;
 }
-.tipo{
+
+.tipo {
     font-family: Impact, sans-serif;
     background: #2f5574;
     color: #fef0a3;
 }
+
 .pesquisador2 {
     text-align: center;
     margin-top: 15px;
     font-size: 20px;
 }
+
 .pesquisador2 ul {
     list-style: none;
     padding: 0;
@@ -86,35 +91,47 @@ body {
     display: inline;
     margin: 0 10px;
 }
+
 .pesquisador2 ul li a {
     text-decoration: none;
     color: #fef0a3;
     transition: color 0.3 ease;
 }
+
 .pesquisador2 ul li a:hover {
     cursor: pointer;
     color: #c1b77e;
 }
+
 .pesquisador2 ul li a .sobre {
     color: #c1b77e;
 }
-.pesquisador2 ul li a:after{
-    background: red;
-}
-.texto{
+
+.texto {
     font-size: 70px;
     padding: 24px;
     margin: 16px auto;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
-.texto h1{
-    background-color: #2f5574;
+
+.fundo{
+background-color: #2f5574;
 }
-.box{
-    border-radius: 8px;
-    border-color: #c1b77e;
+
+.box {
+
+    border: 2px solid #FDF3B0;
+    border-radius: 16px;
+    padding: 40px 30px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -60px;
 }
-p{
+
+p {
     font-size: 30px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serifsans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serifsans-serif;
 }
