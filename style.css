@@ -169,3 +169,27 @@ p {
     border-left: 2px solid #2f5574;
     height: 150px;
 }
+.box ul, .box2 ul{
+    list-style: none;
+    padding: 0;
+}
+.hobbies i{
+    font-size: 40px;
+    color: #000000;
+}
+.hobbies ul li{
+    display: flex;
+}
+.hobbies{
+    padding: 0;
+    margin: 20px auto 0 auto;
+    width: fit-content;
+    text-align: left;
+}
+.rede ul li{
+    display:inline;
+}
+.rede i{
+    font-size: 100px;
+    color: #000000;
+}
