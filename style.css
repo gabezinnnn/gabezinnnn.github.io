@@ -169,27 +169,81 @@ p {
     border-left: 2px solid #2f5574;
     height: 150px;
 }
-.box ul, .box2 ul{
+
+.box ul,
+.box2 ul {
     list-style: none;
     padding: 0;
 }
-.hobbies i{
+
+.hobbies i {
     font-size: 40px;
     color: #000000;
 }
-.hobbies ul li{
+
+.hobbies ul li {
     display: flex;
 }
-.hobbies{
+
+.hobbies {
     padding: 0;
     margin: 20px auto 0 auto;
     width: fit-content;
     text-align: left;
 }
-.rede ul li{
-    display:inline;
+
+.rede ul li {
+    display: inline;
 }
-.rede i{
+
+.rede i {
     font-size: 100px;
     color: #000000;
+}
+
+.cont {
+    display: grid;
+    line-height: 0.2;
+}
+
+input,
+textarea {
+    width: 100%;
+    height: auto;
+    padding: 8px;
+    border: 1px solid #2f5574;
+    border-radius: 4px;
+    background-color: #5195cd;
+    color: #fef0a3;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button {
+    width: 100%;
+    height: auto;
+    padding: 8px;
+    border: 1px solid #2f5574;
+    border-radius: 4px;
+    background-color: #2f5574;
+    color: #fef0a3;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input::placeholder,
+textarea::placeholder,
+button::placeholder {
+    color: #fef0a3;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text {
+    width: 400px;
+    height: auto;
+}
+
+.quinta {
+    width: 300px;
+    height: auto;
+    border: 10px solid #c1b77e;
+    border-radius: 8px;
 }
